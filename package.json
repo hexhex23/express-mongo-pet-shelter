@@ -1,21 +1,32 @@
 {
   "name": "moongoose-creation-update-and-queries-lab",
   "version": "0.0.0",
-  "description": "",
+  "description": "## Introduction",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "cookie-parser": "~1.3.5",
     "debug": "~2.2.0",
-    "express": "~4.13.1",
     "ejs": "~2.2.3",
+    "express": "~4.13.1",
+    "express-ejs-layouts": "1.1.0",
     "method-override": "^2.3.4",
     "mongoose": "^4.0.7",
     "morgan": "~1.6.1",
-    "express-ejs-layouts" : "1.1.0"
+    "nodemon": "^1.11.0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexhex23/express-mongo-pet-shelter.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/hexhex23/express-mongo-pet-shelter/issues"
+  },
+  "homepage": "https://github.com/hexhex23/express-mongo-pet-shelter#readme"
 }
